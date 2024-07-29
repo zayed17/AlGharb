@@ -13,7 +13,7 @@ const AboutUs = () => {
           <div className="md:w-1/2 flex flex-col justify-center">
             <h2 className="text-4xl text-customBlue font-bold mb-6">Welcome to Al Gharb</h2>
             <p className="text-gray-700 leading-relaxed mb-6">
-              At Al Gharb Management Consultants, we pride ourselves on being a premier provider of comprehensive business solutions tailored to meet the unique needs of our diverse clientele. Located conveniently in Grand Mall Sharjah, we have built a reputation for excellence, reliability, and innovation in the field of business consulting and management services.
+              At Al Gharb Management Consultants, we pride ourselves on being a premier provider of comprehensive business solutions tailored to meet the unique needs of our diverse clientele. Located conveniently in Sharjah, we have built a reputation for excellence, reliability, and innovation in the field of business consulting and management services.
             </p>
             <p className="text-gray-700 leading-relaxed">
               Our team of experienced professionals is dedicated to providing personalized service and customized solutions to help our clients achieve their business goals. We offer a wide range of services, including business setup, legal and regulatory compliance, financial management, and strategic planning.

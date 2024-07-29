@@ -9,7 +9,7 @@ const Footer = () => {
           <div className="flex flex-col">
             <h3 className="text-lg font-bold mb-4">Al Gharb Management Consultants</h3>
             <p className="mb-4">
-              Opposite Grand Mall,<br /> Sharjah, Rolla, UAE
+              <br />Al Mussalla, Sharjah, UAE
             </p>
             <p className="mb-4">
               <a href="mailto:contactalgharbconsultant@gmail.com" className="hover:underline">contactalgharbconsultant@gmail.com</a>
@@ -32,10 +32,10 @@ const Footer = () => {
           <div className="flex flex-col">
             <h3 className="text-lg font-bold mb-4">Our Services</h3>
             <ul className="space-y-2">
-              <li><Link to='/services' className="hover:underline">Emirates ID Typing</Link></li>
-              <li><Link to='/services' className="hover:underline">Family Visa Online Registration</Link></li>
+              <li><Link to='/services' className="hover:underline">Tax advisory and preparation</Link></li>
+              <li><Link to='/services' className="hover:underline">Accounts supervision</Link></li>
               <li><Link to='/services' className="hover:underline">Audit Assistance</Link></li>
-              <li><Link to='/services' className="hover:underline">Visa Services</Link></li>
+              <li><Link to='/services' className="hover:underline">Budgeting and Forecasting</Link></li>
             </ul>
           </div>
 
@@ -80,3 +80,5 @@ const Footer = () => {
 };
 
 export default Footer;
+
+

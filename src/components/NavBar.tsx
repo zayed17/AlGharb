@@ -14,7 +14,7 @@ const Navbar = () => {
 
   return (
     <nav className="bg-white border-gray-200 fixed top-0 left-0 w-full z-40">
-      <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto">
+      <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto px-4 md:px-8">
         <div className="flex items-center space-x-3 rtl:space-x-reverse cursor-pointer" onClick={() => navigate('/')}>
           <img src="/algharbLogo.jpeg" className="h-20" alt="Al Gharb Logo" />
         </div>
@@ -32,7 +32,7 @@ const Navbar = () => {
           </svg>
         </button>
         <div className={`w-full md:block md:w-auto ${isOpen ? '' : 'hidden'}`} id="navbar-default">
-          <ul className="font-bold flex flex-col text-lg p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-white md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0">
+          <ul className="font-bold flex flex-col text-lg p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-white md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0 md:mx-4 lg:mx-8">
             <li>
               <button
                 onClick={() => navigate('/')}

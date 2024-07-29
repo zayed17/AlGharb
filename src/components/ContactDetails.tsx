@@ -30,8 +30,7 @@ const ContactSection: React.FC = () => {
           </div>
           <h3 className="text-lg font-semibold mb-2 text-customBlue">Address Info</h3>
           <ul className="text-sm text-gray-700">
-            <li className="mb-1">Opposite of Grand Mall,Al Mussalla</li>
-            <li className="mb-1 text-center">Rolla, Sharjah, UAE</li>
+            <li className="mb-1 text-center">Al Mussalla, Sharjah, UAE</li>
           </ul>
         </div>
       </div>
