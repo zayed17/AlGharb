@@ -2,6 +2,8 @@ import { FaFacebookF, FaTiktok,  FaInstagram } from 'react-icons/fa';
 import { Link } from 'react-router-dom';
 
 const Footer = () => {
+  const currentYear = new Date().getFullYear();
+
   return (
     <footer className="bg-gray-800 text-white py-8">
       <div className="container mx-auto px-4">
@@ -72,7 +74,7 @@ const Footer = () => {
         </div>
 
         <div className="text-center mt-8">
-          <p className="text-gray-400 text-sm">© 2024 Al Gharb Management Consultants. All rights reserved.</p>
+          <p className="text-gray-400 text-sm">© {currentYear} Al Gharb Management Consultants. All rights reserved.</p>
         </div>
       </div>
     </footer>
