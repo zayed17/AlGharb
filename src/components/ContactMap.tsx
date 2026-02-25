@@ -1,5 +1,5 @@
+'use client';
 import React, { useState } from 'react';
-import '../style/Banner.css'
 
 const MapComponent: React.FC = () => {
   const [loading, setLoading] = useState(true);

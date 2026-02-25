@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://algharb.ae
+
+# Sitemaps
+Sitemap: https://algharb.ae/sitemap.xml

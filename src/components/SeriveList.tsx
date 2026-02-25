@@ -28,15 +28,15 @@ const services = [
 
 const ServicesList: React.FC = () => {
   return (
-    <div className="container mx-auto py-12 px-4">
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+    <div className="container mx-auto max-w-7xl py-12 px-4">
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8">
         {services.map((service, index) => (
-          <div key={index} className="flex items-start space-x-3 p-4 bg-white rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-200">
-            <div className="flex-shrink-0">
+          <div key={index} className="flex items-start space-x-3 p-5 bg-white rounded-xl shadow-sm ring-1 ring-gray-100 hover:shadow-md hover:ring-gray-200 transition-all duration-200">
+            <div className="flex-shrink-0 mt-1">
               {React.createElement(service.icon, { className: 'h-6 w-6 text-customBlue' })}
             </div>
             <div>
-              <p className="text-lg font-medium text-gray-700">{service.title}</p>
+              <p className="text-base md:text-lg font-medium text-gray-700">{service.title}</p>
               <p className="text-sm text-gray-500">{service.description}</p>
             </div>
           </div>
